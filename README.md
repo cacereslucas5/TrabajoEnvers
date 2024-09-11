@@ -1,1 +1,2 @@
 # TrabajoEnvers
+descomprimir, poner drop en las propiedades de persistencias.xml en caso que ya haya tablas en la base de datos luego cambiar por create y ejecutar, en caso de que salga Schema "RBAC" no encontrado ,ejecutar: CREATE SCHEMA IF NOT EXISTS RBAC (en la base de datos), despues ya se podran hacer las modificaciones comentadas en el main antes de ejecutar la modificaciones cambiar el create por update 
